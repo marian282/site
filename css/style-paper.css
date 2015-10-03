@@ -1,0 +1,8 @@
+ul.list-group.my-menu > li.list-group-item{
+    background-color: #BBDEFB;
+}
+
+ul.list-group.my-menu > li.list-group-item:hover{
+    background-color: #64B5F6;
+    cursor: pointer;
+}

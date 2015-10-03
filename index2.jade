@@ -1,0 +1,39 @@
+doctype html
+html(ng-app="myApp")
+	head
+		meta(http-equiv="Content-Type" content="text/html;charset=utf-8")
+		link(rel="stylesheet" type="text/css" href="./css/bootstrap.min.css")
+		link(rel="stylesheet" type="text/css" href="./css/style-paper.css")
+		script(type="text/javascript" src="./js/jquery-2.1.4.min.js")
+		script(type="text/javascript" src="./js/angular.min.js")
+		script(type="text/javascript" src="./js/bootstrap.min.js")
+		script(type="text/javascript" src="./js/main_app.js")
+		title Liceul "Vasile Conta"
+	body(ng-controller="mainController")
+		.row
+			.col-md-2
+			.col-md-8
+				.row
+					.col-md-12
+						strong Liceul "Vasile Conta" - Targu Neamt
+				.row
+					.col-md-3
+						ul.list-group.my-menu
+							li.list-group-item(ng-repeat="menuItem in menu" ng-click="menuItem.show = !menuItem.show") {{menuItem.name}}
+								ul.list-group.sub-menu(ng-if="menuItem.children.length > 0 && menuItem.show")
+									li.list-group-item(ng-repeat="subMenuItem in menuItem.children") {{subMenuItem}}
+					.col-md-9
+						.row
+							.col-md-12
+								strong GALERIE
+						.row
+							.col-md-8
+								strong Cuvant deschidere an scolar
+							.col-md-2
+								strong orar
+							.col-md-2
+								strong calendar
+				.row
+					.col-md-12
+						strong subsol
+			.col-md-2

@@ -1,0 +1,44 @@
+.nav{
+background:transparent;border:0 none;font-size: 100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;
+}
+#menu {
+    width:100%;
+    overflow:hidden;
+    margin-top:3px;
+}
+#menu li {
+float:left;
+}
+#menu a {
+display:block;font-size:20px;font-weight:400;color:#000;
+background:url(../images/menu.gif) top repeat-x;line-height:55px;text-decoration:none;
+}
+#menu li span {
+display:block;
+background:url(../images/menu_left.gif) top left no-repeat;
+}
+#menu .alpha span {
+background:url(../images/left_menu.gif) top left no-repeat;
+}
+#menu .alpha a:hover span,#menu .alpha#menu_active a span {
+background:url(../images/left_menu_active.gif) top left no-repeat;
+}
+#menu .omega span span {
+background:url(../images/right_menu.gif) top right no-repeat;
+}
+#menu .omega a:hover span span,#menu .omega#menu_active a span span {
+background:url(../images/right_menu_active.gif) top right no-repeat;
+}
+#menu li span span,#menu .alpha span span {
+background:url(../images/menu_right.gif) top right no-repeat;padding:0 36px;
+}
+#menu a:hover,#menu #menu_active a {
+color:#fff;
+background:url(../images/menu_active.gif) top repeat-x;
+}
+#menu a:hover span,#menu #menu_active a span {
+background:url(../images/menu_left_active.gif) top left no-repeat;
+}
+#menu a:hover span span,#menu #menu_active a span span,#menu .alpha#menu_active a span span,#menu .alpha a:hover span span {
+background:url(../images/menu_right_active.gif) top right no-repeat;
+}

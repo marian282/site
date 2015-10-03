@@ -1,0 +1,153 @@
+body{
+background:url(../images/bg-top.jpg) center top no-repeat #f4eadf;
+/*font:13px Arial,Helvetica,sans-serif;*/
+font-family: 'Alegreya', serif;
+color:#323232;
+line-height:17px;
+}
+.container{
+width:1036px;
+/*height:800px;*/
+margin-left:auto;
+margin-right:auto;
+/*border: solid 3px red;*/
+}
+.banner{
+height:125px;
+margin-left:10px;
+background-image:url(../images/background1.png);
+/*border: solid 3px #6633FF;*/
+}
+.logo{
+height:140px;
+width:150px;
+/*background-color:yellow;*/
+float: left;
+/*border: solid 3px #663399;*/
+display: inline;
+}
+.tit{
+margin-left: 150px;
+padding-left: 5px;
+padding-top: 5px;
+/*background-image:url(../images/background.png);*/
+/*border: solid 3px #FF00FF;*/
+}
+.wrapper{
+padding-top:25px;
+height:700px;
+/*width: 925px;*/
+margin-left:100px;
+/*border: solid 3px #6699FF;*/
+background-color: #ffffff;
+}
+#cleft {
+/*padding-top: 35px;*/
+/*padding-left: 10px;*/
+margin-left: -50px;
+width: 200px; 
+float: left;
+/*border: solid 3px #469B7E;*/
+display: inline;
+}
+#ccenter {
+padding-left: 15px;
+float:left;
+/*border: solid 3px red;*/
+width: 765px;
+height: 300px;
+}
+#ccenter2 {
+padding-left: 15px;
+padding-top: 15px;
+float:left;
+/*border: solid 3px red;*/
+width: 765px;
+height: 350px;
+}
+#ccenter3 {
+/*padding-left: 15px;*/
+float:left;
+/*border: solid 3px red;*/
+width: 915px;
+height: 100px;
+}
+#col{
+width: 380px;
+float:left;
+/*padding-left: 15px;*/
+/*border: solid 3px #3366FF;*/
+height: 350px;
+}
+#ccol{
+width: 175px;
+float:left;
+padding-left: 5px;
+/*border: solid 3px #3366FF;*/
+height: 150px;
+}
+#titlujos{
+text-align: center;
+background-color: #F4C200;
+height: 30px;
+line-height: 30px;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+}
+.footer{
+height:100px;
+width:345px;
+float: right;
+text-align: center;
+background-color: #094989;
+line-height: 30px;
+padding-right:35px;
+
+}
+#sigle{
+/*width: 175px;*/
+float:left;
+/*padding-left: 5px;*/
+/*border: solid 3px #3366FF;*/
+height: 150px;
+}
+.relative1 {
+position: relative;
+font-size: 16px;
+}
+.relative2 {
+/*border-top-style: dotted;*/
+/*position: relative;*/
+text-align: right;
+top: -2px;
+left: 200px;
+width: 650px;
+}
+#ccentersec {
+padding-left: 15px;
+float:left;
+/*border: solid 3px red;*/
+width: 765px;
+height: 650px;
+}
+h5 {
+  border-bottom: 1px solid #094989;/*DBD9C8*/
+  color: #676767;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px 0;
+  padding-bottom: 5px;
+}
+h6 {
+  /*border-bottom: 1px solid red;*/
+  color: #676767;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 25px 0px 0px 25px;
+}
+h2, h3, h4, h5, h6 {
+  font-family: "open sans", Arial, sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+}

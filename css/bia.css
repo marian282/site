@@ -4,64 +4,13 @@ a:link {
 
 a:visited {
     text-decoration: none;
-	
-}
-/*Calendar*/
-/* Styling for the title (Month and Year) of the calendar */
-div.title {
-    font: x-large Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    height: 20px;
-    background-color: white;
-    color: black;
-    }
-/* Styling for the footer */
-div.footer {
-    font: small Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    }
-/* Styling for the overall table */
-table {
-    font: 100% Verdana, Arial, Helvetica, sans-serif;
-    table-layout: fixed;
-    border-collapse: collapse;
-    width: 110%;
-    }
-/* Styling for the column headers (days of the week) */
-th {
-    padding: 0;
-    text-align: center;
-    background-color:#F4C200;
-    color:white;
-    }
-/* Styling for the individual cells (days) */
-td  {     
-    font-size: small;
-    padding: 0.1em 0.1em;   
-    width: 18%; 
-    height: 2px;
-    text-align: left;
-    vertical-align: top;
-    }
-/* Styling for the date numbers */
-.date  {     
-    font-size: large;
-    padding: 0.1em 0.1em;   
-    text-align: left;
-    vertical-align: top;
-    }
-/* Class for individual days (coming in future release) */
-.sun {
-     color:red;
-     }
-/* Hide the month element (coming in future release) */
-th.month {
-    visibility: hidden;
-    display:none;
-    }
+	}
 
 /*Fonturi*/
 h4{ 
 	color:white;
 	font-size:14px;	
+}
+p {
+	 text-indent: 50px;
 }
